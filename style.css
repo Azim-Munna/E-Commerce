@@ -1143,3 +1143,6 @@ secion.footer_area.sectionp {}
     /* background: #333 !important; */
     font-weight: 600;
 }
+.isotop_section {
+    padding-top: 0;
+}
