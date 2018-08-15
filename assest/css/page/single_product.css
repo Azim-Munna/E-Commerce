@@ -1,0 +1,170 @@
+
+.pro_ref p {margin: 15px 0;color:  #333;font-size:  15px;}
+
+.single_page_top_content {
+    padding-bottom:  20px;
+    border-bottom:  1px solid #ddd;
+}
+
+.pro_ref p span:first-child {
+    margin-right: 15px;
+    font-weight:  400;
+}
+
+.f_num label {
+    font-size:  15px;
+    color:  #333;
+    font-weight:  400;
+    vertical-align:  middle;
+    margin-right: 10px;
+}
+
+.f_num input {
+    width: 65px;
+    height: 35px;
+    padding:  5px;
+    text-align:  center;
+    background:  #fff;
+    border: 1px solid #ebebeb;
+}
+
+.single_page_top_middle {
+    padding-bottom:  20px;
+    border-bottom:  1px solid #ddd;
+    /* margin-bottom:  15px; */
+}
+
+.add_btn {
+    background:  #333;
+    padding:  7px 15px;
+    color:  #fff;
+    border: 1px solid #333;
+    transition:  0.3s ease-in;
+    margin-right:  5px;
+}
+
+.single_page_footer {
+    /* display:  block; */
+    margin-top:  30px;
+}
+
+.add_btn:hover {
+    color: #333;
+    background:  #fff;
+}
+
+.img_thumbnail a {
+    width:  21%;
+    /* display:  block; */
+    /* height:  200px; */
+    /* float:  left; */
+    margin-right:  1%;
+    border:  2px solid #ddd;
+}
+
+.img_thumbnail {
+    margin-top: 20px;
+    display:  flex;
+    flex-wrap:  wrap;
+}
+
+.tab_list {
+    /* padding-bottom: 10px; */
+    /* border-bottom:  1px solid #ddd; */
+}
+
+.tab_list .active a {
+    background: #333 !important;
+}
+
+.tab_list li a {
+    background:  #f0f0f0;
+    color:  #333;
+    border:  1px solid #ebebeb;
+    padding:  10px 20px;
+    text-transform: uppercase;
+    font-size:  15px;
+    font-weight:  500;
+    font-family:  'Rubik', sans-serif;
+    position:  relative;
+    left: -2px;
+}
+
+.tab_list li {
+    /* margin-right: 5px; */
+}
+
+.tab_body {
+    padding: 25px;
+    border:  1px solid #ddd;
+    /* text-align:  left; */
+    margin: -1px;
+}
+
+.tab_one_c p {
+    padding-bottom:  15px;
+}
+
+.rev_title h4 {
+    padding-bottom: 20px;
+    font-size:  20px;
+}
+
+.review_list span {
+    /* margin-right:  25px; */
+    width: 75px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight:  bold;
+    font-family:  'Rubik', sans-serif;
+    color:  #333;
+}
+
+.review_list li i {
+    color:  #f9ba48;
+    padding-right:  8px;
+    line-height:  20px;
+    font-size:  16px;
+}
+
+.review_area h6 {
+    font-size: 18px;
+    padding-bottom:  15px;
+    padding-top: 20px;
+    color:  #363f4d;
+    font-weight:  5;
+}
+
+.review_from label {
+    text-transform:  capitalize;
+    font-weight: 500;
+    color:  #363f4d;
+    /* font-size:  14px; */
+}
+
+.review_from input {
+    width:  50%;
+    display:  block;
+}
+
+.review_from textarea {
+    width:  50%;
+    /* text-align:  left; */
+    display:  block;
+}
+
+.reb_btn {
+    /* background: #363f4d !important; */
+    background: #f2f3f3;
+    color:  #363f4d;
+    border: 1px solid #cdcdcd;
+    width:  inherit;
+    height:  inherit;
+    padding: 10px 17px;
+    line-height:  inherit;
+    text-transform:  uppercase;
+    border-radius:  4px;
+    letter-spacing:  1px;
+    font-size:  15px;
+    font-weight: 500;
+}

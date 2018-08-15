@@ -1,0 +1,257 @@
+
+.shop_sidebar .sidebar_title h4 {
+    font-size:  25px;
+}
+
+.shop_sidebar .recent_content h4 a {
+    display:  block;
+    padding: 10px 0;
+}
+
+.featured_section .products_area:nth-child(3), .featured_section .products_area:nth-child(2),.featured_section .products_area:nth-child(4) {
+    padding-top: 50px;
+}
+
+.pagination_show_area {
+    display:  flex;
+    justify-content:  space-between;
+    text-align:  center;
+}
+
+.show_page label {
+    color: #333;
+    margin-right:  5px;
+    font-size:  15px;
+    font-weight:  400;
+    text-transform:  capitalize;
+}
+
+.show_page span {
+    margin-left:  5px;
+    text-transform:  capitalize;
+}
+
+.show_page select:focus {
+    outline:  none;
+    /* border:  none; */
+}
+
+.show_page select:hover {}
+
+.show_page {
+    /* vertical-align:  middle; */
+}
+
+.show_page label {
+    color: #333;
+    margin-right:  5px;
+    font-size:  15px;
+    font-weight:  400;
+    text-transform:  capitalize;
+}
+
+.show_page span {
+    margin-left:  5px;
+    text-transform:  capitalize;
+}
+
+.show_page select:focus {
+    outline:  none;
+    /* border:  none; */
+}
+
+.show_page select:hover {}
+
+.top_shop select {
+    height:  40px;
+    width:  140px;
+}
+
+.show_page select {
+    height: 40px;
+    padding-left:  10px;
+    border:  1px solid #eceff8;
+    text-transform:  capitalize;
+    font-size:  14px;
+}
+
+.show_page select option {
+    text-transform:  capitalize;
+}
+
+.top_shop_icon li a {
+    display: block;
+}
+
+.top_shop_icon li {
+    display:  inline-block;
+    margin-left: 10px;
+    font-size: 30px;
+    cursor:  pointer;
+}
+
+.top_shop_icon li a {
+    color:  #333;
+}
+
+.grid_view {
+    transition:  0.3s ease-in;
+    /* z-index: 1; */
+    /* position:  relative; */
+}
+
+.horizontal_view {
+    transition:  0.3s ease-in;
+    position:  absolute;
+    top:  0;
+    width:  100%;
+    opacity: 0;
+    visibility:  hidden;
+}
+
+.horizontal_vertical_area {
+    position:  relative;
+}
+
+.shop_show{
+	opacity: 1;
+	visibility: visible;
+
+
+}
+.shop_hide{
+	opacity: 0;
+	visibility: hidden;
+}
+.hori_single .single_img_slide .sng_im_p {
+    width: 250px;
+    /* width: 30%; */
+}
+
+
+
+.hori_single .prod_content {
+    text-align:  left;
+}
+
+.hori_single .prod_content_area {
+    padding: 0 20px 0px;
+}
+
+.hori_single {
+    padding:  15px;
+}
+
+.hori_single .single_img_slide {
+    padding:  15px;
+    display:  flex;
+}
+
+.hori_single .single_product:hover .prod_content {
+    opacity: 1;
+    visibility:  visible;
+}
+
+.hori_single .sic_icon a {
+    opacity:  1;
+    visibility:  visible;
+    left:  0;
+}
+
+.hori_single .si_img_ic.prod_content_area>.sic_icon {
+    position: relative;
+    left:  0;
+    text-align:  left;
+    top: 0px;
+}
+
+.hori_single .prod_content p+p {
+    margin: 15px 0;
+    line-height: 26px;
+}
+
+.hori_single .prod_content h4 {
+    text-transform:  capitalize;
+    margin-bottom: 5px;
+    font-size:  16px;
+}
+
+.horizontal_view,.grid_view {
+    padding-top:  50px;
+}
+
+.horizontal_view {
+    padding-top:  30px;
+}
+
+.horizontal_view,.grid_view {
+    padding-top:  50px;
+}
+
+.horizontal_view {
+    padding-top:  30px;
+    padding-bottom:  0;
+}
+
+.hori_single .prod_content span {
+    font-size:  14px;
+}
+
+.horizontal_shop_product_area .hori_single:first-child {
+    margin-top:  0;
+}
+
+.horizontal_view .pagination_show_area, .grid_view .pagination_show_area {
+    margin-top: 50px;
+}
+
+.horizontal_view .pagination_show_area, .grid_view .pagination_show_area {
+    margin-top: 50px;
+}
+
+.horizontal_view .pagination_show_area {
+    margin-top:  20px;
+}
+
+.horizontal_view.shop_show {
+    z-index:  1;
+}
+
+.grid_view.shop_show {
+    z-index:  1;
+    position:  relative;
+}
+
+.hori_single .single_img_slide .sng_im_p .front_img,.hori_single .single_img_slide .sng_im_p .back_img {
+    padding: 0;
+    margin:  0;
+    /* width:  100%; */
+    height:  100%;
+}
+
+.hori_single .single_img_slide .sng_im_p .front_img img {
+    width:  100%;
+    height:  100%;
+}
+
+.single_page_img img {
+    width:  100%;
+    height:  100%;
+}
+
+.single_page_top_content span {
+    margin-bottom: 10px;
+    display:  block;
+    margin-top:  20px;
+}
+
+.single_page_top_content h2 {
+    font-size:  28px;
+    font-weight:  500;
+    text-transform:  capitalize;
+}
+
+.single_page_top_content p {
+    line-height:  26px;
+    /* font-size:  15px; */
+}

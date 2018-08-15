@@ -102,7 +102,16 @@ $(".product_isotop_area").isotope({
      $(".navbar-collapse ul li a").on('click', function() {
         $(".navbar-collapse").removeClass("in");
     });
+// shop page horizontal and vertical view js
+$(".grid_v").on('click',function(){
+    $(".horizontal_view").addClass("shop_hide").removeClass("shop_show");
+    $(".grid_view").addClass("shop_show").removeClass("shop_hide");
+});
 
+$(".hor_v").on('click',function(){
+    $(".grid_view").addClass("shop_hide").removeClass("shop_show");
+    $(".horizontal_view").addClass("shop_show").removeClass("shop_hide");
+});
      // menu fixed
      $(window).scroll(function() {
         var topscrool = $(window).scrollTop();
@@ -118,5 +127,10 @@ $(".product_isotop_area").isotope({
      $(".menu li").on("click", function() {
          $(this).addClass("active-pr").siblings("li").removeClass("active-pr");
      })
+    $(".pagen li").on("click", function() {
+         $(this).addClass("active-pr").siblings("li").removeClass("active-pr");
+     })
+     // pre
+    // $('body').jpreLoader();
 
 })(jQuery);
