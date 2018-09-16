@@ -10,7 +10,7 @@
     /* clear:  both; */
     /* display:  block; */
     background:  #fff;
-    box-shadow:  0 0 10px 1px rgba(0, 0, 0, 0.05);
+    /*box-shadow:  0 0 10px 1px rgba(0, 0, 0, 0.05);*/
 }
 
 .header-area h2 {
@@ -29,7 +29,7 @@
 .menu {
     margin-top: 2px;
     position: relative;
-    left: 74px;
+    left: 140px;
 }
 
 .menu li a:hover {
@@ -125,7 +125,7 @@ span.shop_n {
     text-align: center;
     border-radius: 50%;
     transform: rotate(100deg);
-    top: -1px;
+    top: -4px;
     font-size:  12px;
 }
 
@@ -186,7 +186,7 @@ span.shop_n {
     width: 12px;
     height: 12px;
     line-height: 12px;
-    background: #222;
+    background: #868282;
     position: absolute;
     /* margin-right:  20px; */
     border-radius: 50%;
@@ -203,7 +203,7 @@ span.shop_n {
 }
 
 a.nivo-control.active {
-    background: #868282;
+    background: #222;
 }
 
 .nivo-controlNav a:last-child {
@@ -557,7 +557,7 @@ a.img_area_slide {
     left: 0;
     top:0;
     clear: both;
-    width: 50%;
+    width: 50.5%;
     height: 100%;
     content: "";
     /* background-attachment: fixed; */
@@ -637,7 +637,7 @@ a.img_area_slide {
 }
 
 .discunt_section {
-    background: url("assest/img/slider/3.jpg");
+    background: url("../../img/slider/3.jpg");
     position:  relative;
     background-attachment: fixed;
     background-size:  100%;
@@ -1162,4 +1162,36 @@ secion.footer_area.sectionp {}
 }
 .right_content h3 {
     color:  #fff;
+}
+/*fixed icon*/
+.up {
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    background: #333;
+    text-align: center;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    position: fixed;
+    right: 15px;
+    bottom: 25px;
+    z-index: 555;
+    border-radius:  50%;
+    color:  #fff;
+    border: 1px solid #999;
+}
+
+
+.up:hover {
+    border-color:  #fff;
+}
+.top_d {
+    opacity: 0;
+}
+.phone_area em {
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 14px;
 }

@@ -1,0 +1,35 @@
+.error_area {
+    text-align: center;
+}
+
+.error_area h1 {
+    margin-bottom: 30px;
+    font-size: 150px;
+    letter-spacing: 10px;
+    font-family: "Rubik", sans-serif;
+    color: #333;
+    line-height: 170px;
+    font-weight: normal;
+}
+
+.error_area h2 {
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    color: #4c4c4c;
+    font-weight: normal;
+}
+
+.error_area h5 {
+    font-size: 24px;
+    color: #4c4c4c;
+    line-height: 34px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.error_area h5 a {
+    color: #555;
+    font-weight: 700;
+}

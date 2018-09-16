@@ -156,54 +156,69 @@
         </div>
     </header>
     <!-- header area end -->
-     <section class="page_title_area sectionp">
+    <section class="page_title_area sectionp">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="page_title">
                         <h3>
-    						<a href="index.html">home</a>
-    						<span>/</span>
-    						<a class="active-pr"href="contact.html" >Contact</a>
-    					</h3>
+                            <a href="index.html">home</a>
+                            <span>/</span>
+                            <a class="active-pr"href="shop.html" >cart</a>
+                        </h3>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- end page title  -->
-	<!-- form and map area  -->
-	<section class="form_map_area sectionp">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6">
-					<!-- <div class="map_area">
-						<div class="map-marker"><img src="assest/img/map-marker.png" alt=""></div>
-						<div class="map" id="map"></div>
-					</div> -->
-					<div class="map">
-						<img src="assest/img/map.png" alt="">
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="form_area_c">
-						<h3>Leave a message</h3>
-						<form action="#">
-							<div class="row">
-								<div class="col-sm-4"><input type="text" class="c_name name" placeholder="Name"></div>
-							<div class="col-sm-4"><input type="emial" class="c_email email" placeholder="Email"></div>
-							<div class="col-sm-4"><input type="text " class="c_sub name" placeholder="Subject"></div>
-							</div>
-							<textarea name="c_from" id="c_msg" class="c_m rev" placeholder="Write Your Massage"></textarea>
-							<button class="btnn wr_c_btn c_btn">Sumbit</button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- end form and map area  -->
-  <!-- subscrive section area start -->
+    <!-- cart page area start  -->
+    <section class="sectionp cart_content_area">
+        <div class="container">
+            <table class="cart_table">
+                <thead>
+                    <tr>
+                        <th class="t_img">image</th>
+                        <th class="t_product">product</th>
+                        <th class="t_price">price</th>
+                        <th class="t_quantity">quantity</th>
+                        <th class="t_total">total</th>
+                        <th class=t_remove>remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="#">
+                                <img src="assest/img/product/3.jpg" alt="">
+                            </a>
+                        </td>
+                        <td>Standard Shoes</td>
+                        <td>$232.00</td>
+                        <td>
+                            <input type="number" value="1" min="1" class="quan">
+                        </td>
+                        <td>$232.00</td>
+                        <td><a href="#">X</a></td>
+                    </tr><tr>
+                        <td>
+                           <a href="#"> <img src="assest/img/product/12.jpg" alt=""></a>
+                        </td>
+                        <td>Standard Shoes</td>
+                        <td>$232.00</td>
+                        <td>
+                            <input type="number" value="2" min="1" class="quan">
+                        </td>
+                        <td>$232.00</td>
+                        <td><a href="#">X</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- cart page area end  -->
+
+     <!-- subscrive section area start -->
     <section class="subscrive_section sectionp">
         <div class="container">
             <div class="row">
@@ -315,6 +330,7 @@
         </div>
     </div>
     <!-- fotter section area start  -->
+    <!-- js section -->
     <!-- js section -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assest/js/bootstrap.min.js"></script>

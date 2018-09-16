@@ -1,0 +1,11 @@
+/*for 767px*/
+@media all and (max-width: 767px){
+.header-area {
+    top: 0;
+}
+
+.navbar-toggle span {
+    background: #8d98aa;
+    height: 4px !IMPORTANT;
+    width: 25px !important;
+}

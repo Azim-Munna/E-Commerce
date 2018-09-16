@@ -1,0 +1,55 @@
+
+th.t_img {
+    width: 10%;
+    /* display:  block; */
+}
+
+th.t_product {
+    width: 25%;
+}
+
+th.t_quantity {
+    width:  15%;
+}
+
+th.t_remove {
+    width: 17.5%;
+}
+
+th.t_total {
+    width:  17.5%;
+}
+
+th.t_price {
+    width: 15%;
+}
+
+table.cart_table th,table.cart_table td {
+    text-align:  center;
+    border-bottom:  1px solid #e5e5e5;
+    border-right:  1px solid #e5e5e5;
+    padding: 15px 10px;
+    color:  #333;
+    font-weight:  n;
+}
+
+table.cart_table {
+    border: 1px solid #e5e5e5;
+    /* display:  block; */
+    width: 100%;
+}
+
+table.cart_table td a {
+    color:  #333;
+}
+
+input.quan {
+    width: 60px;
+    height:  40px;
+    text-align:  center;
+    line-height: 40px;
+    background:  #e5e5e5;
+    border: none;
+    color:  #6f6f6f;
+    border-radius:  3px;
+}

@@ -156,54 +156,199 @@
         </div>
     </header>
     <!-- header area end -->
-     <section class="page_title_area sectionp">
+    <section class="page_title_area sectionp">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="page_title">
                         <h3>
-    						<a href="index.html">home</a>
-    						<span>/</span>
-    						<a class="active-pr"href="contact.html" >Contact</a>
-    					</h3>
+                            <a href="index.html">home</a>
+                            <span>/</span>
+                            <a class="active-pr"href="shop.html" >Checkout</a>
+                        </h3>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- end page title  -->
-	<!-- form and map area  -->
-	<section class="form_map_area sectionp">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6">
-					<!-- <div class="map_area">
-						<div class="map-marker"><img src="assest/img/map-marker.png" alt=""></div>
-						<div class="map" id="map"></div>
-					</div> -->
-					<div class="map">
-						<img src="assest/img/map.png" alt="">
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="form_area_c">
-						<h3>Leave a message</h3>
-						<form action="#">
-							<div class="row">
-								<div class="col-sm-4"><input type="text" class="c_name name" placeholder="Name"></div>
-							<div class="col-sm-4"><input type="emial" class="c_email email" placeholder="Email"></div>
-							<div class="col-sm-4"><input type="text " class="c_sub name" placeholder="Subject"></div>
-							</div>
-							<textarea name="c_from" id="c_msg" class="c_m rev" placeholder="Write Your Massage"></textarea>
-							<button class="btnn wr_c_btn c_btn">Sumbit</button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- end form and map area  -->
-  <!-- subscrive section area start -->
+    <!-- check out section area start -->
+    <section class="sectionp">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="cart_left_side_content">
+                        <div class="ch_title">
+                            <h2>Billing Details</h2>
+                        </div>
+                        <form action="#" method="get" class="shidping_from">
+                            <div class="shidping_adrs">
+                                <div class="col-sm-6">
+                                    <label for="firstname">first name *</label>
+                                    <input type="text" id="firstname" class="first_name cm">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="last_name">last name *</label>
+                                    <input type="text" id="last_name" class="last_name cm">
+                                </div>
+                            </div>
+                            <label for="comp_n">company name</label>
+                            <input type="text" id="comp_n" class="comp_n cm">
+                            <div class="shidping_adrs">
+                                <div class="col-sm-6">
+                                    <label for="ch_email"> email *</label>
+                                    <input type="email" id="ch_email" class="cm ch_email">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="ch_phone">phone*</label>
+                                    <input type="text" id="ch_phone" class="ch_phone cm" placeholder="phone">
+                                </div>
+                            </div>
+                            <label for="check_country">Country *</label>
+                            <select name="check_country" id="check_country" class="chec_select cm">
+                                <option value="bangladesh">bangladesh</option>
+                                <option value="pakishtan">pakishtan</option>
+                                <option value="india">india</option>
+                                <option value="nepal">nepal</option>
+                                <option value="butan">butan</option>
+                                <option value="chin">chin</option>
+                            </select>
+                            <label for="ch_address">address *</label>
+                            <input type="text" id="ch_address" class="ch_address cm" placeholder="street address">
+                            <div class="shidping_adrs">
+                                <div class="col-sm-6">
+                                    <label for="ch_city"> city *</label>
+                                    <input type="text" id="ch_city" class="cm ch_city">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="ch_zip">zipcode*</label>
+                                    <input type="text" id="ch_zip" class="ch_zip cm" placeholder="postcode / zipcode">
+                                </div>
+                            </div>
+                            <div class="def_title ch_title">
+                                <h2>
+                                <label for="check_ch">Ship to a different address?</label>
+                                <input type="checkbox" id="check_ch">
+                            </h2>
+                            </div>
+                            <!-- different area start -->
+                            <div class="different_address_area" id="dif_ship_area">
+                                <div class="shidping_adrs">
+                                    <div class="col-sm-6">
+                                        <label for="firstname">first name *</label>
+                                        <input type="text" id="firstname" class="first_name cm">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="last_name">last name *</label>
+                                        <input type="text" id="last_name" class="last_name cm">
+                                    </div>
+                                </div>
+                                <label for="comp_n">company name</label>
+                                <input type="text" id="comp_n" class="comp_n cm">
+                                <div class="shidping_adrs">
+                                    <div class="col-sm-6">
+                                        <label for="ch_email"> email *</label>
+                                        <input type="email" id="ch_email" class="cm ch_email">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="ch_phone">phone*</label>
+                                        <input type="text" id="ch_phone" class="ch_phone cm" placeholder="phone">
+                                    </div>
+                                </div>
+                                <label for="check_country">Country *</label>
+                                <select name="check_country" id="check_country" class="chec_select cm">
+                                    <option value="bangladesh">bangladesh</option>
+                                    <option value="pakishtan">pakishtan</option>
+                                    <option value="india">india</option>
+                                    <option value="nepal">nepal</option>
+                                    <option value="butan">butan</option>
+                                    <option value="chin">chin</option>
+                                </select>
+                                <label for="ch_address">address *</label>
+                                <input type="text" id="ch_address" class="ch_address cm" placeholder="street address">
+                                <div class="shidping_adrs">
+                                    <div class="col-sm-6">
+                                        <label for="ch_city"> city *</label>
+                                        <input type="text" id="ch_city" class="cm ch_city">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="ch_zip">zipcode*</label>
+                                        <input type="text" id="ch_zip" class="ch_zip cm" placeholder="postcode / zipcode">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- different area end -->
+                            <label for="ch_note">notes</label>
+                            <textarea name="note" id="ch_note" class="ch_note cm" placeholder="notes text"></textarea>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="check_right_side_content_area">
+                        <div class="ch_title">
+                            <h2>Your order</h2>
+                        </div>
+                        <div class="right_content_cho">
+                            <div class="right_table_area">
+                                <table class="right_table">
+                                    <tbody>
+                                        <tr class="cart_time">
+                                            <td class="th_left">Standard Shoes</td>
+                                            <td class="th_right">$453.00</td>
+                                        </tr>
+                                        <tr class="cart_time">
+                                            <td class="th_left">Shipping</td>
+                                            <td class="th_right">$10.00</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td class="th_left">Cart Subtotal</td>
+                                            <td class="th_right">$546.00</td>
+                                        </tr>
+                                        <tr class="t_t_f">
+                                            <td class="th_left">total</td>
+                                            <td class="th_right"><strong>$546.00</strong></td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                            <!-- end table  -->
+                            <div class="right_colpas_area">
+                                <div class="right_colpas_one com_col">
+                                    <p><a data-toggle="collapse" href="#footwear_one" aria-expanded="true" aria-controls="footwear_one" class="colpas_hea">Direct Bank Transfer</a>
+                                    </p>
+                                    <div class="panel-collapse collapse in col_cont" id="footwear_one">
+                                        <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+                                    </div>
+                                </div>
+                                <div class="right_colpas_two com_col">
+                                    <p><a data-toggle="collapse" href="#footwear_two" aria-expanded="false" aria-controls="footwear_two" class="colpas_hea">Cheque Payment</a>
+                                    </p>
+                                    <div class="collapse col_cont" id="footwear_two">
+                                        <p>Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
+                                    </div>
+                                </div>
+                                <div class="right_colpas_three com_col">
+                                    <p><a data-toggle="collapse" href="#footwear_three" aria-expanded="false" aria-controls="footwear_three" class="colpas_hea">PayPal</a>
+                                    </p>
+                                    <div class="collapse col_cont" id="footwear_three">
+                                        <p>Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end colpas  -->
+                            <div class="right_order_btn">
+                                <input type="submit" value="place order">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- check out section area end -->
+    <!-- subscrive section area start -->
     <section class="subscrive_section sectionp">
         <div class="container">
             <div class="row">
@@ -315,6 +460,7 @@
         </div>
     </div>
     <!-- fotter section area start  -->
+    <!-- js section -->
     <!-- js section -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assest/js/bootstrap.min.js"></script>
