@@ -1,7 +1,8 @@
-.text-content {
-    text-align: center;
-}
+
 .title1 {
     font-size: 50px;
     font-family: "Rubik", sans-serif;
+}
+.home_2text_content{
+	text-align: center;
 }

@@ -212,7 +212,7 @@ a.nivo-control.active {
 
 .slider_section {
     position: relative;
-    padding: 0;
+    padding: 0 !important;
     margin-top:  14px;
 }
 
@@ -455,7 +455,7 @@ a.img_area_slide {
         color: #fff;
         font-size: 11px;
         height: 20px;
-        /* left: 50%; */
+         left: 50%; 
         line-height: 20px;
         /* margin-left: -10px; */
         padding: 0;
@@ -845,6 +845,7 @@ a.load {
     color:  #666;
     width:  400px;
     height: 50px;
+    border: 1px solid #ddd;
 }
 
 .subscrive_content .sub_search:before {
@@ -993,6 +994,7 @@ secion.footer_area.sectionp {}
 .text-content {
     z-index: 1;
     position:  relative;
+    text-align: left;
 }
 
 /*.banner-readmore.wow.fadeInUp.mt-35 {
@@ -1195,3 +1197,22 @@ secion.footer_area.sectionp {}
     margin-left: 5px;
     font-size: 14px;
 }
+/*eidit final */
+.sub_search {
+    left: inherit;
+    position: absolute;
+    right: 0;
+    
+}
+.phone_area span {
+    margin-left: -30px;
+}
+.subscrive_content .prod_search {
+    position: relative;
+    max-width: 480px;
+    margin: 0 auto;
+}
+.right_icon.mobile_rig_ic {
+    display: none;
+}
+/*menu responsive*/

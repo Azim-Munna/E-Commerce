@@ -15,31 +15,28 @@ $(".product_img_slide_area").owlCarousel({
          autoplay:false,
          margin: 20,
         nav: false,
-         //  responsive: {
-         //     0: {
-         //         items: 1,
-         //         margin:0,
-         //     },
-         //     401: {
-         //         items: 2,
-         //         margin:10,
-         //     },
-         //     480: {
-         //        items: 2,
-               
-         //     },
-         //     767: {
-         //         items: 2,
-
-         //     },
-         //     768: {
-         //         items: 2,
-         //     },
-         //     1023: {
-         //        items: 4,
-         //     }
-
-         // }
+        responsive: {
+            0: {
+                items: 1,
+                // autoplay:true
+            },
+            480: {
+                items: 2,
+                autoplay: true
+            },
+            768: {
+                items: 3,
+                autoplay: true
+            },
+            992: {
+                items: 3,
+                autoplay: true
+            },
+            1200: {
+                items: 5,
+                autoplay:true
+            }
+        }
      });
 $(".sing_page_pr_slide").owlCarousel({
          center: false,
@@ -50,67 +47,90 @@ $(".sing_page_pr_slide").owlCarousel({
         nav: true,
         // slideTransition:6000,
         smartSpeed:1000,
-        navText:['<i class="fa fa-angle-left"></i>' , '<i class="fa fa-angle-right"></i>']
+        navText:['<i class="fa fa-angle-left"></i>' , '<i class="fa fa-angle-right"></i>'],
 
-         //  responsive: {
-         //     0: {
-         //         items: 1,
-         //         margin:0,
-         //     },
-         //     401: {
-         //         items: 2,
-         //         margin:10,
-         //     },
-         //     480: {
-         //        items: 2,
-               
-         //     },
-         //     767: {
-         //         items: 2,
-
-         //     },
-         //     768: {
-         //         items: 2,
-         //     },
-         //     1023: {
-         //        items: 4,
-         //     }
-
-         // }
+         responsive: {
+            0: {
+                items: 1,
+                autoplay: true
+            },
+            480: {
+                items: 2
+            },
+            768: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            },
+            1200: {
+                items: 4
+            }
+        }
      });
 // blog slide 
-$(".bog_content_area").owlCarousel({
+$(".blog_section .bog_content_area:first-child").attr("id","blog_one");
+$("#blog_one").owlCarousel({
          center: false,
          items: 3,
          loop: true,
          autoplay:false,
          margin: 20,
         nav: false,
-         //  responsive: {
-         //     0: {
-         //         items: 1,
-         //         margin:0,
-         //     },
-         //     401: {
-         //         items: 2,
-         //         margin:10,
-         //     },
-         //     480: {
-         //        items: 2,
-               
-         //     },
-         //     767: {
-         //         items: 2,
-
-         //     },
-         //     768: {
-         //         items: 2,
-         //     },
-         //     1023: {
-         //        items: 4,
-         //     }
-
-         // }
+         responsive: {
+            0: {
+                items: 1,
+                autoplay: true
+            },
+            768: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+     });
+$(".blog_section .bog_content_area:nth-child(2)").attr("id","blog_two");
+$("#blog_two").owlCarousel({
+         center: false,
+         items: 3,
+         loop: true,
+         autoplay:false,
+         margin: 20,
+        nav: false,
+         responsive: {
+            0: {
+                items: 1,
+                autoplay: true
+            },
+            768: {
+                items: 1
+            },
+            1000: {
+                items: 3
+            }
+        }
+     });
+$(".blog_section .bog_content_area:nth-child(3)").attr("id","blog_three");
+$("#blog_three").owlCarousel({
+         center: false,
+         items: 3,
+         loop: true,
+         autoplay:false,
+         margin: 20,
+        nav: false,
+         responsive: {
+            0: {
+                items: 1,
+                autoplay: true
+            },
+            768: {
+                items: 1
+            },
+            1000: {
+                items: 3
+            }
+        }
      });
  $(".owl-loaded ").addClass("owl-carousel");
 // **********************isotop***********
@@ -215,7 +235,93 @@ $(small_img).on('click',function(){
     $(".pagen li").on("click", function() {
          $(this).addClass("active-pr").siblings("li").removeClass("active-pr");
      })
-     // pre
+    // navbar collapse activation
+         $(".navbar-collapse ul li a").on('click', function() {
+        $(".navbar-collapse").removeClass("in");
+    });
+         // mobile menu fixeng
+            let i;
+            let nym="list";
+            for(i=0;i<15;i++){
+                var df_nm =nym+i;
+
+                console.log(df_nm);
+            }
+         var m_win = $(window).width();
+         if(m_win<=767){
+            // alert(m_win);
+            $(".header-area .nav.menu").addClass("h_menu");
+            /*(".icon_pl").on("click",function(){
+                $(this).toggleClass("mainus");
+            });
+           */
+            // for one 
+            var li_nth_on  = $(".h_menu li:first-child");
+            var li_nth_on_drop  = $(".h_menu li:first-child ul");
+
+          var mob_nth_one = $(li_nth_on).append("<a class='icon_pl' href='#'></a>");
+          $(".icon_pl").on("click",function(){
+           
+            // $(".icon_pl_one").addClass("icon_pl");
+             $(this).toggleClass("mainus");
+            $(li_nth_on_drop).toggleClass("s_s_w");
+            // end one
+            // test
+            // $(".s_s_w li").addClass("d_me").siblings("li").removeClass("d_me");
+            // test
+            // $(".menu ul").removeClass("s_s_w");
+             // $(".menu ul").addClass("s_s_w");
+
+         })
+         // end one 
+          // for two
+            var li_nth_two  = $(".h_menu li:nth-child(3)");
+            var li_nth_two_drop  = $(".h_menu li:nth-child(3) ul");
+          var mob_nth_two = $(li_nth_two).append("<a class='icon_pl_one' href='#'></a>");
+          $(".icon_pl_one").on("click",function(){
+             $(this).toggleClass("mainus");
+            $(li_nth_two_drop).toggleClass("s_s_w");
+            
+         })
+         // end two
+          // for three
+            var li_nth_three  = $(".h_menu li:nth-child(4)");
+            var li_nth_three_drop  = $(".h_menu li:nth-child(4) ul");
+          var mob_nth_three = $(li_nth_three).append("<a class='icon_pl_three' href='#'></a>");
+          $(".icon_pl_three").on("click",function(){
+             $(this).toggleClass("mainus");
+            $(li_nth_three_drop).toggleClass("s_s_w");
+            
+         })
+         // end three
+          // for four
+            var li_nth_four  = $(".h_menu li:nth-child(5)");
+            var li_nth_four_drop  = $(".h_menu li:nth-child(5) ul");
+          var mob_nth_four = $(li_nth_four).append("<a class='icon_pl_four' href='#'></a>");
+          $(".icon_pl_four").on("click",function(){
+             $(this).toggleClass("mainus");
+            $(li_nth_four_drop).toggleClass("s_s_w");
+            
+         })
+         // end four
+          
+      }
+          // copy
+          /*var windoww = $(window).width()
+     if(windoww <=767 ){
+         var click_hide = $(".menu li a");
+         click_hide.on("click",function(){
+             $(".menu").css("display","none")
+              return false;
+         });
+          // copy
+          
+          /*$(".icon_pl").on("click",function(){
+             $(".menu ul").css({"opacity":"1","visibility":"visible"});
+         })*/
+          
+        
+     // // pre
      // down to top
       $(window).scroll(function(){
         var top_sc = $(window).scrollTop();

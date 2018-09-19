@@ -137,3 +137,11 @@ font-size: 14px;
 text-transform: capitalize;
 font-size: 14px;
 }
+.menu li a:focus {
+    background: transparent !IMPORTANT;
+}
+@media all and (max-width: 767px){
+    .sectionp{
+        padding:40px 0;
+}
+}
