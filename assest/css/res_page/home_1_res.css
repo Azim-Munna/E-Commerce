@@ -410,10 +410,14 @@ ul.menu.s_s_w {
     padding: 0px 0px;
     margin-bottom: -2px;
 }
+/*.navbar-collapse.in {
+    overflow: initial;
+}*/
 .navbar-collapse.in {
-    overflow-y: auto;
+    overflow: initial;
     max-height: 350px;
 }
+
 .h_menu li:nth-child(2) a:nth-child(2),.h_menu li:last-child a:nth-child(2) {
     display: none;
 }
